@@ -510,6 +510,7 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .is-open {
     opacity: 1;
@@ -522,6 +523,7 @@ ul, ol {
     background-color: #FCFCFC;
     border-radius: 4px;
     position: absolute;
+    margin-bottom: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -544,6 +546,7 @@ ul, ol {
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -561,13 +564,14 @@ ul, ol {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     text-align: center;
+    
 }
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .modal-input {
     width: 100%;
@@ -578,6 +582,7 @@ ul, ol {
     background-color: transparent;
     outline: transparent;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus {
     border-color: #4D5AE5;
@@ -598,22 +603,24 @@ ul, ol {
     min-width: 169px;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.17;
     color: #FFF;
     text-align: center;
     letter-spacing: 0.64px;
     padding-left: 16px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .modal-label {
     display: block;
     color: #8E8F99;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.16em; /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.48px;
     margin-bottom: 4px;
+    
 }
 .modal-icons {
     fill: #2E2F42;
@@ -659,11 +666,20 @@ ul, ol {
     display: flex;
     align-self: center;
 }
+.check-link {
+    text-decoration-line: underline;
+    color: #4D5AE5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+
+}
 .check-text a {
     color: #4D5AE5;
 }
 .check-text-box {
-    display: block;
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -676,7 +692,7 @@ ul, ol {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check:checked + .check-text .check-text-box {
-    background-color: #404BBF;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
