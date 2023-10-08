@@ -380,7 +380,10 @@ ul, ol {
 }
 .footer-container {
     margin-right: 120px;
+    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
+
 .footer-logo-span {
     color: #f4f4fd;
     font-family: 'Raleway', sans-serif;
@@ -473,8 +476,8 @@ ul, ol {
     color: #FFF;
     font-family: Roboto;
     font-size: 12px;
-    line-height: 24px; /* 200% */
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     outline: transparent;
 }
 .footer-form-btn {
@@ -486,13 +489,16 @@ ul, ol {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    line-height: 0.02em; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.64px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+.check-text-box {
+    display: inline-flex;
 }
 .footer-item-icon{
     display: inline;
