@@ -378,10 +378,9 @@ ul, ol {
     align-items: baseline;
     justify-content: center;
 }
-.footer-container {
+.footer-container-form {
     margin-right: 120px;
     margin-bottom: 8px;
-    margin-bottom: 24px;
 }
 
 .footer-logo-span {
@@ -449,19 +448,26 @@ ul, ol {
 .footer-item-link:focus {
     background-color: #31d0aa;
 }
+.footer-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .footer-form-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .footer-form {
     display: flex;
     gap: 24px;
 }
-
+.footer-form-label {
+    line-height: 1.17;
+}
 .footer-form-input {
     width: 264px;
     height: 40px;
@@ -489,7 +495,6 @@ ul, ol {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.64px;
     border: none;
     display: flex;
