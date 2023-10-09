@@ -459,7 +459,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .footer-form {
     display: flex;
@@ -477,9 +477,15 @@ ul, ol {
     padding-left: 16px;
     background-color: transparent;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;
+
 }
 .footer-form-input::placeholder {
-    color: #FFF;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 12px;
     line-height: 1.17;
@@ -487,12 +493,11 @@ ul, ol {
     outline: transparent;
 }
 .footer-form-btn {
-    width: 160px;
     height: 40px;
     padding: 8px 24px;
     border-radius: 4px;
     background-color: #4D5AE5;
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -502,6 +507,9 @@ ul, ol {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    min-width: 165px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .check-text-box {
     display: inline-flex;
