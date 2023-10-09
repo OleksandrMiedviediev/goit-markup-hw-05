@@ -443,6 +443,7 @@ ul, ol {
 }
 .footer-item-icon {
     fill: #f4f4fd;
+    margin-left: 16px;
 }
 .footer-item-link:hover, 
 .footer-item-link:focus {
