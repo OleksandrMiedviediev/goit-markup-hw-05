@@ -689,7 +689,6 @@ ul, ol {
     color: #8E8F99;
     font-size: 12px;
     letter-spacing: 0.48px;
-    display: flex;
     align-self: center;
     line-height: 1.17;
 }
@@ -706,9 +705,9 @@ ul, ol {
     color: #4D5AE5;
 }
 .check-text-box {
-    display: inline-flex;
     width: 16px;
     height: 16px;
+    display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 12px;
