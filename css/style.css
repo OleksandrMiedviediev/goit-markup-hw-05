@@ -443,6 +443,7 @@ ul, ol {
 }
 .footer-item-icon {
     fill: #f4f4fd;
+    margin-left: 16px;
 }
 .footer-item-link:hover, 
 .footer-item-link:focus {
@@ -656,15 +657,16 @@ ul, ol {
 }
 .input-wrap {
     position: relative;
+    margin-bottom: 16px;
 }
 .modal-textarea {
+    display: inline-flex;
     width: 100%;
     height: 120px;
     border-radius: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     padding: 8px 16px;
