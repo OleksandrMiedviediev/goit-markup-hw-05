@@ -378,6 +378,9 @@ ul, ol {
     align-items: baseline;
     justify-content: center;
 }
+.footer-container {
+    margin-right: 120px;
+}
 .footer-container-form {
     margin-right: 120px;
     margin-bottom: 8px;
@@ -544,7 +547,6 @@ ul, ol {
     background-color: #FCFCFC;
     border-radius: 4px;
     position: absolute;
-    margin-bottom: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -710,7 +712,7 @@ ul, ol {
     display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    margin-right: 12px;
+    margin-right: 8px;
     align-items: center;
     justify-content: center;
     fill: transparent;
