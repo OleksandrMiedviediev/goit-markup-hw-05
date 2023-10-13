@@ -29,7 +29,11 @@ ul, ol {
 
 /*HEADER*/
 
-/* HEADER STYLES */
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .header {
     display: flex;
@@ -38,12 +42,6 @@ ul, ol {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
                 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header-container {
